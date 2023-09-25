@@ -5,6 +5,9 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+	<link rel="preload" href="fonts/lato-regular.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="fonts/lato-bold.woff2" as="font" type="font/woff2" crossorigin>
+
 	<link rel="stylesheet" href="css/style.css">
 	<title>ShopOnline</title>
 </head>
@@ -20,7 +23,14 @@
 			</div>
 
 			<div class="article__block">
-				<a class="article__link" href="#" target="_blank">К списку статей</a>
+				<a class="article__link" href="#" target="_blank">
+
+					<svg class="article__arrow-icon" width="24" height="24" viewbox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+						<path d="M21 11H6.83L10.41 7.41L9 6L3 12L9 18L10.41 16.59L6.83 13H21V11Z" />
+					</svg>
+
+					<span>К списку статей</span>
+				</a>
 				<cite class="article__author">Инга Соловьева</cite>
 			</div>
 		</div>
